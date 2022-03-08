@@ -3,6 +3,7 @@ from . import views
 
 urlpatterns = [
     path('', views.index),
+    path('login.html', views.login),
     path('<year>/<int:month>/<slug:day>', views.my_date),
     path('download.html', views.download),
     re_path('(?P<year>[0-9]{4}).html', views.my_year, name='my_year'),

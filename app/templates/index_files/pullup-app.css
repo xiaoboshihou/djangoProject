@@ -1,0 +1,129 @@
+.header-pullapp {
+  position: relative;
+  height: 54px;
+  background-color: #fff;
+}
+
+.header-pullapp-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 200;
+  margin: 0 auto;
+  background-color: #333;
+  height: 54px;
+  clear: both;
+}
+
+.header-pullapp-content .header-pullapp-close {
+  position: absolute;
+  display: inline-block;
+  height: 100%;
+  width: 40px;
+  left: 0;
+}
+
+.header-pullapp-content .header-pullapp-close .img {
+  position: absolute;
+  top: 18px;
+  display: block;
+  width: 18px;
+  height: 18px;
+  left: 12px;
+  background: url(icon-app-close.png)
+    no-repeat;
+  background-size: 17px 17px;
+}
+
+.header-pullapp-content .header-pullapp-img {
+  display: block;
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-left: 42px;
+  margin-top: 7px;
+}
+.header-pullapp-content .header-pullapp-img img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+  border-radius: 8px;
+}
+.header-pullapp-content .header-pullapp-txtbox {
+  width: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  float: left;
+  color: #fff;
+  font-size: 13px;
+  margin-left: 10px;
+  height: 100%;
+}
+
+.header-pullapp-txtbox span:first-child {
+  width: 100%;
+}
+
+.header-pullapp-txtbox .header-pullapp-txtbox-title {
+  font-size: 13px;
+  height: 18.6px;
+  line-height: 18.6px;
+}
+
+.header-pullapp-txtbox .header-pullapp-txtbox-txt {
+  font-size: 11px;
+  margin-top: 2px;
+  height: 15.72px;
+  line-height: 15.72px;
+  color: rgba(255, 255, 255, 0.6);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.header-pullapp-content .header-pullapp-btnbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  float: right;
+}
+
+.header-pullapp-btnbox .header-pullapp-btn {
+  font-size: 11px;
+  display: inline-block;
+  margin-right: 12px;
+  height: 22px;
+  line-height: 22px;
+  color: #333;
+  max-width: 58px;
+  overflow: hidden;
+  background: #fff;
+  padding: 0 8px;
+  border-radius: 3px;
+}
